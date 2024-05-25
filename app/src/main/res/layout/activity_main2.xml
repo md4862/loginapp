@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="317dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="40dp"
+        android:src="@drawable/logo_cmp" />
+    <EditText
+        android:id="@+id/user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img1"
+        android:hint="Enter your mobile number"
+        android:textSize="20sp"
+        android:inputType="number" />
+    <EditText
+        android:id="@+id/pswd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/user"
+        android:hint="Enter your password"
+        android:textSize="20sp"
+        android:inputType="text" />
+    <Button
+        android:id="@+id/login"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/pswd"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="35dp"
+        android:hint="Login IN"
+        android:textSize="45sp" />
+    <TextView
+        android:id="@+id/forgot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/login"
+        android:layout_marginTop="50dp"
+        android:textSize="18sp"
+        android:layout_centerHorizontal="true"
+        android:text="forgot password"/>
+
+
+</RelativeLayout>

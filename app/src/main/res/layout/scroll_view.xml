@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:contentDescription="app">
+     <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+        <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/ar_m"
+            android:layout_margin="20dp" />
+
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginLeft="58dp"
+            android:layout_marginEnd="20dp"
+            android:layout_toRightOf="@+id/img1"
+            android:text="Tony Stark"
+
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="311dp"
+            android:layout_height="75dp"
+            android:layout_below="@+id/txt1"
+            android:layout_marginTop="-13dp"
+            android:layout_toRightOf="@+id/img1"
+            android:text="arshadtryyrt@gmail.com"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txt3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text2"
+            android:layout_marginLeft="44dp"
+            android:layout_marginTop="-35dp"
+            android:layout_toRightOf="@+id/img1"
+            android:text="9442889914"
+            android:textSize="20sp" />
+
+
+
+
+
+          </RelativeLayout>
+
+
+         <RelativeLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".MainActivity">
+
+
+             <ImageView
+                 android:id="@+id/img2"
+                 android:layout_width="120dp"
+                 android:layout_height="120dp"
+                 android:src="@drawable/tony_stark"
+                 android:layout_margin="20dp" />
+
+             <TextView
+                 android:id="@+id/txt21"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_margin="20dp"
+                 android:layout_marginStart="50dp"
+                 android:layout_marginLeft="58dp"
+                 android:layout_marginEnd="20dp"
+                 android:layout_toRightOf="@+id/img2"
+                 android:text="Tony Stark"
+                 android:textSize="20sp"/>
+             <TextView
+                 android:id="@+id/text22"
+                 android:layout_width="311dp"
+                 android:layout_height="75dp"
+                 android:layout_below="@+id/txt21"
+                 android:layout_marginTop="-13dp"
+                 android:layout_toRightOf="@+id/img2"
+                 android:text="arshadtryyrt@gmail.com"
+                 android:textSize="18sp" />
+
+             <TextView
+                 android:id="@+id/txt23"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_below="@+id/text22"
+                 android:layout_marginLeft="9dp"
+                 android:layout_marginTop="-40dp"
+                 android:layout_toRightOf="@+id/img2"
+                 android:text="9442889914"
+                 android:textSize="20sp" />
+
+
+
+
+
+         </RelativeLayout>
+
+         <RelativeLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".MainActivity">
+
+
+             <ImageView
+                 android:id="@+id/img3"
+                 android:layout_width="120dp"
+                 android:layout_height="120dp"
+                 android:layout_margin="20dp"
+                 android:src="@drawable/tony_stark" />
+
+             <TextView
+                 android:id="@+id/txt31"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_margin="20dp"
+                 android:layout_marginStart="50dp"
+                 android:layout_marginLeft="58dp"
+                 android:layout_marginEnd="20dp"
+                 android:layout_toRightOf="@+id/img3"
+                 android:text="Tony Stark"
+
+                 android:textSize="20sp" />
+
+             <TextView
+                 android:id="@+id/text32"
+                 android:layout_width="311dp"
+                 android:layout_height="75dp"
+                 android:layout_below="@+id/txt31"
+                 android:layout_marginTop="-13dp"
+                 android:layout_toRightOf="@+id/img3"
+                 android:text="arshadtryyrt@gmail.com"
+                 android:textSize="18sp" />
+
+             <TextView
+                 android:id="@+id/txt33"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_below="@+id/text32"
+                 android:layout_marginLeft="44dp"
+                 android:layout_marginTop="-35dp"
+                 android:layout_toRightOf="@+id/img3"
+                 android:text="9442889914"
+                 android:textSize="20sp" />
+
+
+
+         </RelativeLayout>
+
+
+         <RelativeLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".MainActivity">
+
+
+             <ImageView
+                 android:id="@+id/img4"
+                 android:layout_width="120dp"
+                 android:layout_height="120dp"
+                 android:layout_margin="20dp"
+                 android:src="@drawable/tony_stark" />
+
+             <TextView
+                 android:id="@+id/txt41"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_margin="20dp"
+                 android:layout_marginStart="50dp"
+                 android:layout_marginLeft="58dp"
+                 android:layout_marginEnd="20dp"
+                 android:layout_toRightOf="@+id/img4"
+                 android:text="Tony Stark"
+
+                 android:textSize="20sp" />
+
+             <TextView
+                 android:id="@+id/text42"
+                 android:layout_width="311dp"
+                 android:layout_height="75dp"
+                 android:layout_below="@+id/txt41"
+                 android:layout_marginTop="-13dp"
+                 android:layout_toRightOf="@+id/img4"
+                 android:text="arshadtryyrt@gmail.com"
+                 android:textSize="18sp" />
+
+             <TextView
+                 android:id="@+id/txt43"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_below="@+id/text42"
+                 android:layout_marginLeft="44dp"
+                 android:layout_marginTop="-35dp"
+                 android:layout_toRightOf="@+id/img4"
+                 android:text="9442889914"
+                 android:textSize="20sp" />
+
+
+         </RelativeLayout>
+
+         <RelativeLayout
+             xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".MainActivity">
+
+
+             <ImageView
+                 android:id="@+id/img5"
+                 android:layout_width="120dp"
+                 android:layout_height="120dp"
+                 android:src="@drawable/tony_stark"
+                 android:layout_margin="20dp" />
+
+             <TextView
+                 android:id="@+id/txt51"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_margin="20dp"
+                 android:layout_marginStart="50dp"
+                 android:layout_marginLeft="58dp"
+                 android:layout_marginEnd="20dp"
+                 android:layout_toRightOf="@+id/img5"
+                 android:text="Tony Stark"
+
+                 android:textSize="20sp" />
+
+             <TextView
+                 android:id="@+id/text52"
+                 android:layout_width="311dp"
+                 android:layout_height="75dp"
+                 android:layout_below="@+id/txt51"
+                 android:layout_marginTop="-13dp"
+                 android:layout_toRightOf="@+id/img5"
+                 android:text="arshadtryyrt@gmail.com"
+                 android:textSize="18sp" />
+
+             <TextView
+                 android:id="@+id/txt53"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_below="@+id/text52"
+                 android:layout_marginLeft="44dp"
+                 android:layout_marginTop="-35dp"
+                 android:layout_toRightOf="@+id/img5"
+                 android:text="9442889914"
+                 android:textSize="20sp" />
+
+
+
+
+
+         </RelativeLayout>
+
+         <RelativeLayout
+             xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".MainActivity">
+
+
+             <ImageView
+                 android:id="@+id/img6"
+                 android:layout_width="120dp"
+                 android:layout_height="120dp"
+                 android:src="@drawable/tony_stark"
+                 android:layout_margin="20dp" />
+
+             <TextView
+                 android:id="@+id/txt61"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_margin="20dp"
+                 android:layout_marginStart="50dp"
+                 android:layout_marginLeft="58dp"
+                 android:layout_marginEnd="20dp"
+                 android:layout_toRightOf="@+id/img6"
+                 android:text="Tony Stark"
+
+                 android:textSize="20sp" />
+
+             <TextView
+                 android:id="@+id/text62"
+                 android:layout_width="311dp"
+                 android:layout_height="75dp"
+                 android:layout_below="@+id/txt61"
+                 android:layout_marginTop="-13dp"
+                 android:layout_toRightOf="@+id/img6"
+                 android:text="arshadtryyrt@gmail.com"
+                 android:textSize="18sp" />
+
+             <TextView
+                 android:id="@+id/txt63"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_below="@+id/text62"
+                 android:layout_marginLeft="44dp"
+                 android:layout_marginTop="-35dp"
+                 android:layout_toRightOf="@+id/img6"
+                 android:text="9442889914"
+                 android:textSize="20sp" />
+
+
+
+
+
+         </RelativeLayout>
+
+
+
+
+
+     </LinearLayout>
+
+</ScrollView>

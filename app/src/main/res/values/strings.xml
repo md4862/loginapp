@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">My Applicationar</string>
+    <string name="new_app_name">TONY</string>
+    <string name="preference_file_name">Avengers preferences</string>
+</resources>
